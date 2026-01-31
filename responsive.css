@@ -7,3 +7,11 @@
 
 }
 }
+@media screen and (max-width: 4400px) {
+    .fruit_img{
+    width: 100%;
+}
+.fruit_img img{
+    width: 343px
+}
+}
