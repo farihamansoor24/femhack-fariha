@@ -603,11 +603,10 @@ transform:scaleY(105%);
 }
 
 .qa_container{
-    
     text-align: left;
     display: grid;
     justify-content: center;
-    grid-template-columns: 700px;
+    /* grid-template-columns: 700px; */
     gap:10px;
     
 }
