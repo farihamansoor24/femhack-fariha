@@ -546,7 +546,7 @@ text-align: right;
 
 }
 .p_card{
-    min-width: 310px;
+    width: 310px;
     min-height:555px ;
     padding: 30px;
     border:1px solid rgba(214, 218, 228, 1);
@@ -640,4 +640,37 @@ transform:scaleY(105%);
 .all_comp_logo img{
 width: 50%;
 margin: 100px 0;
+}
+
+/* -----CTA2 --------- */
+.cta2 .hero_content{
+    width: 100%;
+    text-align: center;
+}
+.cta2 .input_btn {
+  
+  margin: 30px auto;   /* 🔥 THIS CENTERS IT */
+}
+
+/* -----------Footer Styling------------ */
+footer{
+    width: 100%;
+    min-height: 420px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:80px;
+    padding: 50px 100px;
+}
+.footer_cols, .footer_cols ul{
+    max-width: 400px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.footer_cols h3{
+    padding-bottom: 20px;
 }
